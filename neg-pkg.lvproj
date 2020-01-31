@@ -34,7 +34,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{67B0B84D-DCEC-47F0-88F5-69D70F4F19E0}</Property>
-				<Property Name="Bld_version.build" Type="Int">14</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">neg-pkg.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../build/ppl/NI_AB_PROJECTNAME.lvlibp</Property>
@@ -44,7 +44,7 @@
 				<Property Name="Destination[1].path" Type="Path">../build/ppl</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1E9EBA30-186B-4C97-A796-03C004461195}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B669EE26-AA23-4771-B9F2-4810797A92A5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/neg-pkg.lvlib</Property>
