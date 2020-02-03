@@ -11,7 +11,8 @@
 		<Item Name="Paths.vi" Type="VI" URL="../Paths.vi"/>
 	</Item>
 	<Item Name="Action.lvclass" Type="LVClass" URL="../Action/Action.lvclass"/>
+	<Item Name="Feed.lvclass" Type="LVClass" URL="../Feed/Feed.lvclass"/>
 	<Item Name="Package.lvclass" Type="LVClass" URL="../Package/Package.lvclass"/>
 	<Item Name="Plugin.lvclass" Type="LVClass" URL="../Plugin/Plugin.lvclass"/>
-	<Item Name="Status.lvclass" Type="LVClass" URL="../Status/Status.lvclass"/>
+	<Item Name="UI.lvclass" Type="LVClass" URL="../UI/UI.lvclass"/>
 </Library>

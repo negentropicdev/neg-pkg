@@ -12,7 +12,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="neg-pkg-cli.lvlib" Type="Library" URL="../neg-pkg-cli/neg-pkg-cli.lvlib"/>
 		<Item Name="neg.bat" Type="Document" URL="../neg-pkg-cli/neg.bat"/>
-		<Item Name="Path Test.vi" Type="VI" URL="../neg-pkg-cli/CLI/Path Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -58,17 +57,23 @@
 			</Item>
 			<Item Name="neg-pkg.lvlibp" Type="LVLibp" URL="../../build/ppl/neg-pkg.lvlibp">
 				<Item Name="Utilities" Type="Folder">
-					<Item Name="Paths.vi" Type="VI" URL="../../build/ppl/neg-pkg.lvlibp/Paths.vi"/>
+					<Item Name="Paths.vi" Type="VI" URL="../../build/ppl/neg-pkg.lvlibp/neg-pkg/Paths.vi"/>
 				</Item>
-				<Item Name="Action.lvclass" Type="LVClass" URL="../../build/ppl/neg-pkg.lvlibp/Action/Action.lvclass"/>
+				<Item Name="Action.lvclass" Type="LVClass" URL="../../build/ppl/neg-pkg.lvlibp/neg-pkg/Action/Action.lvclass"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="../../build/ppl/neg-pkg.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Compare Two Paths.vi" Type="VI" URL="../../build/ppl/neg-pkg.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Compare Two Paths.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../build/ppl/neg-pkg.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Feed.lvclass" Type="LVClass" URL="../../build/ppl/neg-pkg.lvlibp/neg-pkg/Feed/Feed.lvclass"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../../build/ppl/neg-pkg.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="../../build/ppl/neg-pkg.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Name.vi"/>
+				<Item Name="JSON.lvlib" Type="Library" URL="../../build/ppl/neg-pkg.lvlibp/neg_pkgs/negentropicdev/lv-json/JSON/JSON.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="../../build/ppl/neg-pkg.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="Package.lvclass" Type="LVClass" URL="../../build/ppl/neg-pkg.lvlibp/Package/Package.lvclass"/>
-				<Item Name="Plugin.lvclass" Type="LVClass" URL="../../build/ppl/neg-pkg.lvlibp/Plugin/Plugin.lvclass"/>
-				<Item Name="Status.lvclass" Type="LVClass" URL="../../build/ppl/neg-pkg.lvlibp/Status/Status.lvclass"/>
+				<Item Name="Package.lvclass" Type="LVClass" URL="../../build/ppl/neg-pkg.lvlibp/neg-pkg/Package/Package.lvclass"/>
+				<Item Name="Plugin.lvclass" Type="LVClass" URL="../../build/ppl/neg-pkg.lvlibp/neg-pkg/Plugin/Plugin.lvclass"/>
+				<Item Name="Semver.lvlib" Type="Library" URL="../../build/ppl/neg-pkg.lvlibp/semver/Semver/Semver.lvlib"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="../../build/ppl/neg-pkg.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="UI.lvclass" Type="LVClass" URL="../../build/ppl/neg-pkg.lvlibp/neg-pkg/UI/UI.lvclass"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="../../build/ppl/neg-pkg.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -96,7 +101,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DA4EB947-9F3D-4810-B1CF-DAB5688821A8}</Property>
-				<Property Name="Bld_version.build" Type="Int">25</Property>
+				<Property Name="Bld_version.build" Type="Int">31</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">neg.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../build/bin/neg/neg.exe</Property>
@@ -158,7 +163,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{11ECD55F-9CA2-43B7-A2EB-7817575AC3DF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Path Test.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
