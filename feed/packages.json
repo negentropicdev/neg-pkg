@@ -1,15 +1,1 @@
-{
-  "time": "2020-01-28T14:32:48Z",
-  "owner": "negentropicdev",
-  "packages": [
-    "lv-json": "https://github.com/negentropicdev/lv-json.git",
-    "lv-base64": "https://github.com/negentropicdev/lv-base64.git",
-    "lv-crypto": "https://github.com/negentropicdev/lv-crypto.git",
-    "lv-jwt": "https://github.com/negentropicdev/lv-jwt.git",
-    "lv-adv-struct": "https://github.com/negentropicdev/lv-adv-struct.git",
-    "lv-hal": "https://github.com/negentropicdev/lv-hal.git",
-    "lv-stream": "https://github.com/negentropicdev/lv-stream.git",
-    "lv-stream-tcp": "https://github.com/negentropicdev/lv-stream-tcp.git",
-    "lv-oopanel": "https://github.com/negentropicdev/lv-oopanel.git"
-  ]
-}
+{"url":"https://raw.githubusercontent.com/negentropicdev/neg-pkg/master/feed/packages.json","packages":[{"id":":/","resource":""},{"id":"git:negentropicdev/lv-json","resource":"https://github.com/negentropicdev/lv-json.git"},{"id":"git:negentropicdev/lv-crypto","resource":"https://github.com/negentropicdev/lv-crypto.git"},{"id":"git:negentropicdev/lv-base64","resource":"https://github.com/negentropicdev/lv-base64.git"},{"id":"git:negentropicdev/lv-jwt","resource":"https://github.com/negentropicdev/lv-jwt.git"}]}
